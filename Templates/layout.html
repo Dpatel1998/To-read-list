@@ -1,0 +1,14 @@
+<html>
+<head>
+<title>Read list</title>
+</head> 
+
+<body>
+<h1> Books I Want To Read...</h1>
+<a href="{{ url_for('index') }}">>Home</a>
+<a href="{{ url_for('add') }}">>Add a New Book</a>
+<a href="{{ url_for('add_author') }}">>Add a New Author</a>
+{% block body %}
+{% endblock body %}
+</body>
+</html>
