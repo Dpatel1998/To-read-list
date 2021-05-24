@@ -34,15 +34,15 @@ The following screenshot shows the initial risk assesment done on the 17/05/2021
 ![Pic](https://github.com/Dpatel1998/To-read-list/blob/main/Images%20for%20read%20me/Risk%20assesement.PNG)
 # Front End Design
 Below you can see the home page of the CRUD app. The three links; 'home' brings you back to the home page, 'add a new book' will take you to the page where you can add a new book to the list and lastly the 'add a new author' takes you to the page where yu can add a new author.
-![Pic](https://github.com/Dpatel1998/To-read-list/blob/main/Images%20for%20read%20me/Home%20Page.PNG)
+- ![Pic](https://github.com/Dpatel1998/To-read-list/blob/main/Images%20for%20read%20me/Home%20Page.PNG)
 - Adding author
-![Pic](https://github.com/Dpatel1998/To-read-list/blob/main/Images%20for%20read%20me/Adding%20author.PNG)
+- ![Pic](https://github.com/Dpatel1998/To-read-list/blob/main/Images%20for%20read%20me/Adding%20author.PNG)
 - Adding a Book
-![Pic](https://github.com/Dpatel1998/To-read-list/blob/main/Images%20for%20read%20me/Adding%20a%20new%20book.PNG)
+- ![Pic](https://github.com/Dpatel1998/To-read-list/blob/main/Images%20for%20read%20me/Adding%20a%20new%20book.PNG)
 - Updated Homepage
-![Pic](https://github.com/Dpatel1998/To-read-list/blob/main/Images%20for%20read%20me/new%20home%20page.PNG)
+- ![Pic](https://github.com/Dpatel1998/To-read-list/blob/main/Images%20for%20read%20me/new%20home%20page.PNG)
 - Timer comes up next to the name when you slick 'start reading'
-![Pic](https://github.com/Dpatel1998/To-read-list/blob/main/Reading.PNG)
+- ![Pic](https://github.com/Dpatel1998/To-read-list/blob/main/Reading.PNG)
 
 # Future improvements 
 In the future i want to add a couple more fields within each table for example on where you can add the number of pages in the book and then later add a book mark feature where when you can put down the page number you stopped reading at. This data can then later be used to workout the average reading time of the user and with that information when they add a new book into the list it'll show the user the average time it'll take them to finish the book.
