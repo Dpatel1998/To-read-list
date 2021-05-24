@@ -20,7 +20,7 @@ class authors(db.Model):
 
 class AuthorsForm(FlaskForm):
     author = StringField("Author")
-    dob = DateField("YYYY-MM-DD")
+    dob = DateField("YYYY-MM-DD") 
     gender = SelectField('Gender',choices=[('Male','Male'),('Female','Female'),('Other','Other')])
     submit = SubmitField("Add Author")
 
@@ -40,7 +40,9 @@ class ToreadForm(FlaskForm):
 def index():
     all_toreads = Toreads.query.all()
     toreads_string = ""
-    return render_template("index.html",all_toreads=all_toreads)
+    all_authors = authors.query.all()
+    authors_string = ""
+    return render_template("index.html",all_toreads=all_toreads,authors=all_authors)
 
 @app.route("/add", methods=["GET","POST"])
 def add():

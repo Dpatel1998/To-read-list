@@ -6,7 +6,8 @@
     
     <p>{{ toread.id }} {{ toread.book }}
         {{toread.reading}}
-        {{ authors_id }}
+        {{ toread.authors.author }}
+
     {% if toread.reading == True %}
     &#9203
     <form action="{{ url_for('not_reading', toread_id=toread.id) }}">
@@ -25,5 +26,7 @@
         <input type="submit" value="Delete"></input>
     </form>
     </p>
+
 {% endfor %}
+
 {% endblock body %}
