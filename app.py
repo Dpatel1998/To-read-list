@@ -7,8 +7,8 @@ from wtforms.fields.core import IntegerField, SelectField
 
 app = Flask(__name__)
 
-app.config['SQLALCHEMY_DATABASE_URI'] ='mysql+pymysql://root:password@34.134.35.91:3306/Toread'
-app.config["SECRET_KEY"] = "secret"
+app.config['SQLALCHEMY_DATABASE_URI'] = ###
+app.config["SECRET_KEY"] = ###
 db = SQLAlchemy(app)
 
 class authors(db.Model):
